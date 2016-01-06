@@ -1,0 +1,54 @@
+{
+  "totalDevices": 7,
+  "devices": [
+    {
+      "number": "1",
+      "device": "Samsung_EDGE_S6",
+      "ip": "68.140.241.207",
+      "port": "5555",
+      "duration": "60"
+    },
+    {
+      "number": "2",
+      "device": "Samsung_S5",
+      "ip": "68.140.242.179",
+      "port": "5555",
+      "duration": "60"
+    },
+    {
+      "number": "3",
+      "device": "Samsung_Tab4",
+      "ip": "68.140.241.50",
+      "port": "5555",
+      "duration": "60"
+    },
+    {
+      "number": "4",
+      "device": "Samsung_Galaxy_Core",
+      "ip": "192.168.29.133",
+      "port": "5555",
+      "duration": "60"
+    },
+    {
+      "number": "5",
+      "device": "LG_Nexus_5",
+      "ip": "68.140.240.252",
+      "port": "5555",
+      "duration": "60"
+    },
+    {
+      "number": "6",
+      "device": "LG_G4",
+      "ip": "192.168.29.110",
+      "port": "5555",
+      "duration": "60"
+    },
+    {
+      "number": "7",
+      "device": "Motorola_Droid",
+      "ip": "192.168.29.121",
+      "port": "5555",
+      "duration": "60"
+    }
+  ]
+}

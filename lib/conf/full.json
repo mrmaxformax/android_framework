@@ -1,0 +1,128 @@
+{
+  "totalDevices": 19,
+  "duration": 60,
+  "port": "5555",
+  "devices": [
+    {
+      "number": "1",
+      "device": "Motorola_XT1565",
+      "ip": "192.168.24.121",
+      "port": "5555"
+    },
+    {
+      "number": "2",
+      "device": "Motorola_XT1585",
+      "ip": "192.168.24.143",
+      "port": "5555"
+    },
+    {
+      "number": "3",
+      "device": "Motorola_XT1585",
+      "ip": "192.168.24.111",
+      "port": "5555"
+    },
+    {
+      "number": "4",
+      "device": "Htc_HTCOne_M8",
+      "ip": "192.168.24.140",
+      "port": "5555"
+    },
+    {
+      "number": "5",
+      "device": "Samsung_SM-T230NU",
+      "ip": "192.168.24.108",
+      "port": "5555"
+    },
+    {
+      "number": "6",
+      "device": "Samsung_SM-G920V",
+      "ip": "192.168.24.114",
+      "port": "5555"
+    },
+    {
+      "number": "7",
+      "device": "Samsung_SM-G925V",
+      "ip": "192.168.24.129",
+      "port": "5555",
+      "duration": "10"
+    },
+    {
+      "number": "8",
+      "device": "Samsung_SM-G900V",
+      "ip": "192.168.24.128",
+      "port": "5555"
+    },
+    {
+      "number": "9",
+      "device": "Samsung_SM-G360V",
+      "ip": "192.168.24.133",
+      "port": "5555"
+    },
+    {
+      "number": "10",
+      "device": "Samsung_GT-I9300I",
+      "ip": "192.168.24.134",
+      "port": "5555"
+    },
+    {
+      "number": "11",
+      "device": "Samsung_SM-T337V",
+      "ip": "192.168.24.132",
+      "port": "5555"
+    },
+    {
+      "number": "12",
+      "device": "Lge_Nexus5",
+      "ip": "192.168.24.130",
+      "port": "5555"
+    },
+    {
+      "number": "13",
+      "device": "Lge_VS880",
+      "ip": "192.168.24.131",
+      "port": "5555"
+    },
+    {
+      "number": "14",
+      "device": "Lge_VS986",
+      "ip": "192.168.24.110",
+      "port": "5555"
+    },
+    {
+      "number": "15",
+      "device": "Lge_VS880",
+      "ip": "192.168.24.124",
+      "port": "5555"
+    },
+    {
+      "number": "16",
+      "device": "Lge_VS9854G",
+      "ip": "192.168.24.136",
+      "port": "5555"
+    },
+    {
+      "number": "17",
+      "device": "Lge_VK8104G",
+      "ip": "192.168.24.137",
+      "port": "5555"
+    },
+    {
+      "number": "18",
+      "device": "Lge_VS990",
+      "ip": "192.168.24.144",
+      "port": "5555"
+    },
+    {
+      "number": "19",
+      "device": "GT-I9505",
+      "ip": "192.168.24.105",
+      "port": "5555"
+    },
+    {
+      "number": "20",
+      "device": "Samsung_SM-N910H",
+      "ip": "192.168.24.118",
+      "port": "5555"
+    }
+  ]
+}

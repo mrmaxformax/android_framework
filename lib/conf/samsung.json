@@ -1,0 +1,13 @@
+{"duration": 60,
+  "port": "5555",
+  "devices": [
+    {"device": "Samsung_S4", "ip": "192.168.24.105", "id": "d547c23f"},
+    {"device": "Samsung_S5", "ip": "192.168.24.129", "id": "d3e05310"},
+    {"device": "Samsung_S6", "ip": "192.168.24.114", "id": "06157df6b2f07c0d"},
+    {"device": "Samsung_S6_Edge", "ip": "192.168.24.128", "id": "05157df55d5cab12"},
+    {"device": "Samsung_Galaxy_Core", "ip": "192.168.24.133", "id": "273deee1"},
+    {"device": "Samsung_Duos", "ip": "192.168.24.134", "id": "22a5edc2"},
+    {"device": "Samsung_Note4", "ip": "192.168.24.118", "id": "4100a016f2f4125b"}
+  ]
+}
+

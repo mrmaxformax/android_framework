@@ -1,0 +1,48 @@
+{
+  "reportFolder": "../Report/",
+  "package": "com.verizonmedia.go90.enterprise",
+  "adb": "adb",
+  "devices": "devices",
+  "apk": "Go90-debug.apk",
+  "startapp": "am start com.verizonmedia.go90.enterprise/.OnCueActivity",
+  "events_dir_name": "Events",
+  "events_list": ["AssetPlayEvent", "DeviceStatusEvent", "PlayerExtensionCDNSEvent", "oncue.ws.client.clientaudit", "oncue.ws.client.ClientError", "refreshTokenCallback", "oncue.ws.client.playerextensionqofs"],
+  "outputFiles": [
+    {
+      "memFilename": "mem_info.txt",
+      "cpuFilename": "cpu_info.txt",
+      "btyFilename": "bty_info.txt",
+      "dtuFilename": "data_usage.txt",
+      "reportFilename": "report.txt"
+    }
+  ],
+  "usageInfo": [
+    {
+      "procName": "Memory Usage",
+      "adbCommand": "cat /proc/meminfo"
+    },
+    {
+      "procName": "CPU Usage",
+      "adbCommand": "top -m 10 -n 1"
+    },
+    {
+      "procName": "Battery Usage",
+      "adbCommand": "dumpsys battery"
+    },
+    {
+      "procName": "Data Usage",
+      "adbCommand": "cat /proc/net/xt_qtaguid/stats"
+    },
+    {
+       "procName": "App Log",
+       "adbCommand": " pull /sdcard/Android/data/com.verizonmedia.go90.enterprise/files/oncue/oncueapp/"
+    }
+  ],
+  "adbShell": [
+    {
+      "device_manufacture": "getprop ro.product.manufacturer",
+      "device_model": "getprop ro.product.model",
+      "android_build": "getprop ro.build.version.release"
+    }
+  ]
+}
