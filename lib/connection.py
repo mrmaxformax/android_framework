@@ -1,4 +1,4 @@
-from utils import *
+from lib.utils import *
 import subprocess, sys, time, re, string, random
 from threading import Thread, Event
 
@@ -201,18 +201,18 @@ class Connection:
         curl = "curl -s 'http://192.168.24.116/cgi-bin/runcommand.sh?100:cmd=254,%s,1' &> /dev/null" % (107 + sensor)
         os.system(curl)
         time.sleep(1)
-        print "USB HUB %s CONNECTED" % sensor
+        print("USB HUB %s CONNECTED" % sensor)
 
     @staticmethod
     def usb_off(sensor):
         curl = "curl -s 'http://192.168.24.116/cgi-bin/runcommand.sh?731:cmd=254,%s,1' &> /dev/null" % (99 + sensor)
         os.system(curl)
         time.sleep(1)
-        print "USB HUB %s DISCONNECTED" % sensor
+        print("USB HUB %s DISCONNECTED" % sensor)
 
     @staticmethod
     def power_login():
-        asid = ''.join([random.choice(string.digits) for n in xrange(32)])
+        asid = ''.join([random.choice(string.digits) for n in range(32)])
         ip = '" 192.168.24.109/login.cgi'
         curl1 = 'curl -s -X POST -d "username=ubnt&password=ubnt" -b "AIROS_SESSIONID='
         curl = curl1 + asid + ip + ' &> /dev/null'
@@ -228,7 +228,7 @@ class Connection:
         curls = curl1 + asid + ip + ' &> /dev/null'
         os.system(curls)
         time.sleep(1)
-        print "POWER CABLE CONNECTED TO HUB %s" % sensor
+        print("POWER CABLE CONNECTED TO HUB %s" % sensor)
 
     @staticmethod
     def power_off(sensor):
@@ -238,4 +238,4 @@ class Connection:
         curls = curl + asid + ip + ' &> /dev/null'
         os.system(curls)
         time.sleep(1)
-        print "POWER CABLE DISCONNECTED FROM HUB %s" % sensor
+        print("POWER CABLE DISCONNECTED FROM HUB %s" % sensor)

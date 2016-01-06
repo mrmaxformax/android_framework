@@ -1,6 +1,7 @@
 import numpy
 import pickle
-from connection import *
+from lib.utils import *
+
 
 
 class Parser:

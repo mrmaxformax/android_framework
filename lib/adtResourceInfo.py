@@ -1,7 +1,7 @@
 
-from connection import *
+from lib.connection import *
 import sys, time
-from utils import *
+from lib.utils import *
 
 strftime = datetime.datetime.strftime(datetime.datetime.now(), '%Y-%m-%d %H:%M:%S')
 

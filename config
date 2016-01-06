@@ -1,12 +1,12 @@
 {
   "reportFolder": "../Report/",
-  "package": "com.verizonmedia.go90.enterprise",
+  "package": "XXXX",
   "adb": "adb",
   "devices": "devices",
-  "apk": "Go90-debug.apk",
-  "startapp": "am start com.verizonmedia.go90.enterprise/.OnCueActivity",
+  "apk": "XXXX.apk",
+  "startapp": "am start XXXXXX",
   "events_dir_name": "Events",
-  "events_list": ["AssetPlayEvent", "DeviceStatusEvent", "PlayerExtensionCDNSEvent", "oncue.ws.client.clientaudit", "oncue.ws.client.ClientError", "refreshTokenCallback", "oncue.ws.client.playerextensionqofs"],
+  "events_list": ["XXX", "XXX", "XXX", "XXX", "XXX", "XXX", "XXX"],
   "outputFiles": [
     {
       "memFilename": "mem_info.txt",
@@ -35,14 +35,14 @@
     },
     {
        "procName": "App Log",
-       "adbCommand": " pull /sdcard/Android/data/com.verizonmedia.go90.enterprise/files/oncue/oncueapp/"
+       "adbCommand": " pull /sdcard/Android/data/XXX"
     }
   ],
   "adbShell": [
     {
-      "device_manufacture": "getprop ro.product.manufacturer",
-      "device_model": "getprop ro.product.model",
-      "android_build": "getprop ro.build.version.release"
+      "device_manufacture": "XXX",
+      "device_model": "XXX",
+      "android_build": "XXX"
     }
   ]
 }
